@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		06917B841D8AFBC300BF86AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06917B831D8AFBC300BF86AA /* AppDelegate.swift */; };
-		06917B861D8AFBC300BF86AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06917B851D8AFBC300BF86AA /* ViewController.swift */; };
+		06917B861D8AFBC300BF86AA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06917B851D8AFBC300BF86AA /* FeedViewController.swift */; };
 		06917B891D8AFBC300BF86AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06917B871D8AFBC300BF86AA /* Main.storyboard */; };
 		06917B8C1D8AFBC300BF86AA /* Solestride_Show.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06917B8A1D8AFBC300BF86AA /* Solestride_Show.xcdatamodeld */; };
 		06917B8E1D8AFBC300BF86AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06917B8D1D8AFBC300BF86AA /* Assets.xcassets */; };
 		06917B911D8AFBC300BF86AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06917B8F1D8AFBC300BF86AA /* LaunchScreen.storyboard */; };
 		06917B9C1D8AFBC300BF86AA /* Solestride_ShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06917B9B1D8AFBC300BF86AA /* Solestride_ShowTests.swift */; };
 		06917BA71D8AFBC300BF86AA /* Solestride_ShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06917BA61D8AFBC300BF86AA /* Solestride_ShowUITests.swift */; };
+		06917C5F1D90524B008ED985 /* RouteClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06917C5E1D90524B008ED985 /* RouteClass.swift */; };
+		06917C611D91A62F008ED985 /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06917C601D91A62F008ED985 /* FeedDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* Begin PBXFileReference section */
 		06917B801D8AFBC300BF86AA /* Solestride_Show.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solestride_Show.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06917B831D8AFBC300BF86AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06917B851D8AFBC300BF86AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06917B851D8AFBC300BF86AA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		06917B881D8AFBC300BF86AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06917B8B1D8AFBC300BF86AA /* Solestride_Show.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solestride_Show.xcdatamodel; sourceTree = "<group>"; };
 		06917B8D1D8AFBC300BF86AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		06917BA21D8AFBC300BF86AA /* Solestride_ShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solestride_ShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06917BA61D8AFBC300BF86AA /* Solestride_ShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solestride_ShowUITests.swift; sourceTree = "<group>"; };
 		06917BA81D8AFBC300BF86AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06917C5E1D90524B008ED985 /* RouteClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteClass.swift; sourceTree = "<group>"; };
+		06917C601D91A62F008ED985 /* FeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				06917B831D8AFBC300BF86AA /* AppDelegate.swift */,
-				06917B851D8AFBC300BF86AA /* ViewController.swift */,
+				06917B851D8AFBC300BF86AA /* FeedViewController.swift */,
 				06917B871D8AFBC300BF86AA /* Main.storyboard */,
+				06917C601D91A62F008ED985 /* FeedDetailViewController.swift */,
+				06917C5E1D90524B008ED985 /* RouteClass.swift */,
 				06917B8D1D8AFBC300BF86AA /* Assets.xcassets */,
 				06917B8F1D8AFBC300BF86AA /* LaunchScreen.storyboard */,
 				06917B921D8AFBC300BF86AA /* Info.plist */,
@@ -196,6 +202,7 @@
 				TargetAttributes = {
 					06917B7F1D8AFBC300BF86AA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KBXLMXZ64B;
 						ProvisioningStyle = Automatic;
 					};
 					06917B961D8AFBC300BF86AA = {
@@ -262,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06917B861D8AFBC300BF86AA /* ViewController.swift in Sources */,
+				06917C5F1D90524B008ED985 /* RouteClass.swift in Sources */,
+				06917B861D8AFBC300BF86AA /* FeedViewController.swift in Sources */,
 				06917B8C1D8AFBC300BF86AA /* Solestride_Show.xcdatamodeld in Sources */,
 				06917B841D8AFBC300BF86AA /* AppDelegate.swift in Sources */,
+				06917C611D91A62F008ED985 /* FeedDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KBXLMXZ64B;
 				INFOPLIST_FILE = Solestride_Show/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KeenanRebera.Solestride-Show";
@@ -426,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KBXLMXZ64B;
 				INFOPLIST_FILE = Solestride_Show/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KeenanRebera.Solestride-Show";
@@ -507,6 +518,7 @@
 				06917BAD1D8AFBC300BF86AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06917BAE1D8AFBC300BF86AA /* Build configuration list for PBXNativeTarget "Solestride_ShowTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +527,7 @@
 				06917BB01D8AFBC300BF86AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06917BB11D8AFBC300BF86AA /* Build configuration list for PBXNativeTarget "Solestride_ShowUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +536,7 @@
 				06917BB31D8AFBC300BF86AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
