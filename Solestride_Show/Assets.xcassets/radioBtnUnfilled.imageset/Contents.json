@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "offSwitch.png"
+      "filename" : "radioBtnUnfilled.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "offSwitch@2x.png"
+      "filename" : "radioBtnUnfilled@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "offSwitch@3x.png"
+      "filename" : "radioBtnUnfilled@3x.png"
     }
   ],
   "info" : {
